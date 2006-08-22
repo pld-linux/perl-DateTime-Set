@@ -9,7 +9,7 @@ Summary:	DateTime::Set - datetime sets and set math
 Summary(pl):	DateTime::Set - zbiory czasów i matematyka na zbiorach
 Name:		perl-DateTime-Set
 Version:	0.25
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -58,6 +58,7 @@ miêdzy 2003-03-05 a 2004-01-07".
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%{__sed} -i -e 's/use Set::Infinite 0.5502/use Set::Infinite 0.55_02/' lib/Set/Infinite/_recurrence.pm
 
 %build
 %{__perl} Build.PL \
