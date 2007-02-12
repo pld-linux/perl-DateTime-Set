@@ -6,7 +6,7 @@
 %define	pdir	DateTime
 %define	pnam	Set
 Summary:	DateTime::Set - datetime sets and set math
-Summary(pl.UTF-8):   DateTime::Set - zbiory czasów i matematyka na zbiorach
+Summary(pl.UTF-8):	DateTime::Set - zbiory czasów i matematyka na zbiorach
 Name:		perl-DateTime-Set
 Version:	0.25
 Release:	3
