@@ -6,7 +6,7 @@
 %define	pdir	DateTime
 %define	pnam	Set
 Summary:	DateTime::Set - datetime sets and set math
-Summary(pl):	DateTime::Set - zbiory czasów i matematyka na zbiorach
+Summary(pl.UTF-8):   DateTime::Set - zbiory czasÃ³w i matematyka na zbiorach
 Name:		perl-DateTime-Set
 Version:	0.25
 Release:	3
@@ -40,21 +40,21 @@ be "every Wednesday from the beginning of time until the end of time",
 or "every Wednesday after 2003-03-05 until the end of time", or "every
 Wednesday between 2003-03-05 and 2004-01-07".
 
-%description -l pl
-DateTime::Set to modu³ do zbiorów czasów. Mo¿e byæ u¿ywany do obs³ugi
-dwóch ró¿nych rodzajów zbiorów.
+%description -l pl.UTF-8
+DateTime::Set to moduÅ‚ do zbiorÃ³w czasÃ³w. MoÅ¼e byÄ‡ uÅ¼ywany do obsÅ‚ugi
+dwÃ³ch rÃ³Å¼nych rodzajÃ³w zbiorÃ³w.
 
-Pierwszy to sta³y zbiór predefiniowanych obiektów czasu (datetime). Na
-przyk³ad je¶li chcemy stworzyæ zbiór czasów zawieraj±cy urodziny osób
+Pierwszy to staÅ‚y zbiÃ³r predefiniowanych obiektÃ³w czasu (datetime). Na
+przykÅ‚ad jeÅ›li chcemy stworzyÄ‡ zbiÃ³r czasÃ³w zawierajÄ…cy urodziny osÃ³b
 z naszej rodziny.
 
-Drugi rodzaj zbiorów obs³ugiwany przez ten modu³ jest oparty na idei
-rekurencji, takiej jak "ka¿da ¶roda" lub "po³udnie 15 dnia ka¿dego
-miesi±ca". Ten rodzaj zbioru mo¿e mieæ sta³e czasy pocz±tkowe i
-koñcowe, ale ¿aden z nich nie jest wymagany. Tak wiêc "zbiór
-wszystkich ¶ród" mo¿e byæ "ka¿d± ¶rod± od pocz±tku czasu do koñca
-czasu" lub "ka¿d± ¶rod± po 2003-03-05 do koñca czasu" lub "ka¿d± ¶rod±
-miêdzy 2003-03-05 a 2004-01-07".
+Drugi rodzaj zbiorÃ³w obsÅ‚ugiwany przez ten moduÅ‚ jest oparty na idei
+rekurencji, takiej jak "kaÅ¼da Å›roda" lub "poÅ‚udnie 15 dnia kaÅ¼dego
+miesiÄ…ca". Ten rodzaj zbioru moÅ¼e mieÄ‡ staÅ‚e czasy poczÄ…tkowe i
+koÅ„cowe, ale Å¼aden z nich nie jest wymagany. Tak wiÄ™c "zbiÃ³r
+wszystkich Å›rÃ³d" moÅ¼e byÄ‡ "kaÅ¼dÄ… Å›rodÄ… od poczÄ…tku czasu do koÅ„ca
+czasu" lub "kaÅ¼dÄ… Å›rodÄ… po 2003-03-05 do koÅ„ca czasu" lub "kaÅ¼dÄ… Å›rodÄ…
+miÄ™dzy 2003-03-05 a 2004-01-07".
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
