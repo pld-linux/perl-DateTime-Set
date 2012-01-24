@@ -8,13 +8,13 @@
 Summary:	DateTime::Set - datetime sets and set math
 Summary(pl.UTF-8):	DateTime::Set - zbiory czasów i matematyka na zbiorach
 Name:		perl-DateTime-Set
-Version:	0.28
+Version:	0.31
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/DateTime/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b0f4ccdf212fcfa2fb0d8be855904b65
+# Source0-md5:	ab14a78a4912f14312ec44f356f63ea0
 URL:		http://search.cpan.org/dist/DateTime-Set/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
