@@ -9,7 +9,7 @@ Summary:	DateTime::Set - datetime sets and set math
 Summary(pl.UTF-8):	DateTime::Set - zbiory czasów i matematyka na zbiorach
 Name:		perl-DateTime-Set
 Version:	0.3600
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -21,6 +21,11 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-DateTime >= 0.12
+BuildRequires:	perl-DateTime-Locale
+BuildRequires:	perl-DateTime-TimeZone
+BuildRequires:	perl-Exporter-Tiny
+BuildRequires:	perl-Module-Implementation
+BuildRequires:	perl-Params-Validate
 BuildRequires:	perl-Set-Infinite >= 0.59
 %endif
 BuildArch:	noarch
